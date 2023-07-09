@@ -233,24 +233,16 @@ git commit -m ":tada: Initialize Repo"
 
 Continue with a longer description a.k.a. message body:
 
--   Add a blank line after the summary line, then write as much as you want.
--   Use up to 72 characters per line for typical text for word wrap.
--   Use as many characters as needed for atypical text, such as URLs, terminal output, formatted messages, etc.
--   Include any kind of notes, links, examples, etc. as you want.
-
-## Summary examples
-
-Summary examples of good commit messages:
-
--   Add foo
--   Drop foo
--   Fix foo
--   Refactor foo
--   Optimize foo
+-   Add a blank line after the summary line, then write as much as you want. 在摘要行后添加一个空行，然后随心所欲地写。
+-   Use up to 72 characters per line for typical text for word wrap. 对于自动换行的典型文本，每行最多使用 72 个字符。
+-   Use as many characters as needed for atypical text, such as URLs, terminal output, formatted messages, etc. 对非典型文本使用尽可能多的字符，例如 URL、终端输出、格式化消息等。
+-   Include any kind of notes, links, examples, etc. as you want. 包括任何类型的注释、链接、示例等。如你所愿。
 
 ## Summary keywords
 
-We recommend these summary keywords because they use imperative mood, present tense, active voice, and are verbs:
+We recommend these summary keywords because they use imperative mood, present tense, active voice, and are verbs: 
+
+我们推荐以下摘要关键字，因为它们使用命令式语气、现在时态、主动语态，并且是动词：
 
 -   **Add**: Create a capability e.g. feature, test, dependency. 创建一个功能，例如特性，测试，依赖。
 -   **Drop**: Delete a capability e.g. feature, test, dependency. 删除功能，例如功能，测试，依赖。
